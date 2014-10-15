@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2DE777619EF1F1C00FC77C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DE777519EF1F1C00FC77C7 /* main.m */; };
+		D2DE777919EF1F1C00FC77C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DE777819EF1F1C00FC77C7 /* AppDelegate.m */; };
+		D2DE777C19EF1F1C00FC77C7 /* Pisti_Oyunu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D2DE777A19EF1F1C00FC77C7 /* Pisti_Oyunu.xcdatamodeld */; };
+		D2DE777F19EF1F1C00FC77C7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DE777E19EF1F1C00FC77C7 /* ViewController.m */; };
+		D2DE778219EF1F1C00FC77C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2DE778019EF1F1C00FC77C7 /* Main.storyboard */; };
+		D2DE778419EF1F1C00FC77C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2DE778319EF1F1C00FC77C7 /* Images.xcassets */; };
+		D2DE778719EF1F1C00FC77C7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2DE778519EF1F1C00FC77C7 /* LaunchScreen.xib */; };
+		D2DE779319EF1F1D00FC77C7 /* Pisti_OyunuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DE779219EF1F1D00FC77C7 /* Pisti_OyunuTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2DE778D19EF1F1D00FC77C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2DE776819EF1F1C00FC77C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2DE776F19EF1F1C00FC77C7;
+			remoteInfo = "Pisti Oyunu";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D2DE777019EF1F1C00FC77C7 /* Pisti Oyunu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pisti Oyunu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2DE777419EF1F1C00FC77C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2DE777519EF1F1C00FC77C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D2DE777719EF1F1C00FC77C7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D2DE777819EF1F1C00FC77C7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D2DE777B19EF1F1C00FC77C7 /* Pisti_Oyunu.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pisti_Oyunu.xcdatamodel; sourceTree = "<group>"; };
+		D2DE777D19EF1F1C00FC77C7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D2DE777E19EF1F1C00FC77C7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D2DE778119EF1F1C00FC77C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2DE778319EF1F1C00FC77C7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D2DE778619EF1F1C00FC77C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D2DE778C19EF1F1D00FC77C7 /* Pisti OyunuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pisti OyunuTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2DE779119EF1F1D00FC77C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2DE779219EF1F1D00FC77C7 /* Pisti_OyunuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pisti_OyunuTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2DE776D19EF1F1C00FC77C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2DE778919EF1F1D00FC77C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2DE776719EF1F1C00FC77C7 = {
+			isa = PBXGroup;
+			children = (
+				D2DE777219EF1F1C00FC77C7 /* Pisti Oyunu */,
+				D2DE778F19EF1F1D00FC77C7 /* Pisti OyunuTests */,
+				D2DE777119EF1F1C00FC77C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2DE777119EF1F1C00FC77C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2DE777019EF1F1C00FC77C7 /* Pisti Oyunu.app */,
+				D2DE778C19EF1F1D00FC77C7 /* Pisti OyunuTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2DE777219EF1F1C00FC77C7 /* Pisti Oyunu */ = {
+			isa = PBXGroup;
+			children = (
+				D2DE777719EF1F1C00FC77C7 /* AppDelegate.h */,
+				D2DE777819EF1F1C00FC77C7 /* AppDelegate.m */,
+				D2DE777D19EF1F1C00FC77C7 /* ViewController.h */,
+				D2DE777E19EF1F1C00FC77C7 /* ViewController.m */,
+				D2DE778019EF1F1C00FC77C7 /* Main.storyboard */,
+				D2DE778319EF1F1C00FC77C7 /* Images.xcassets */,
+				D2DE778519EF1F1C00FC77C7 /* LaunchScreen.xib */,
+				D2DE777A19EF1F1C00FC77C7 /* Pisti_Oyunu.xcdatamodeld */,
+				D2DE777319EF1F1C00FC77C7 /* Supporting Files */,
+			);
+			path = "Pisti Oyunu";
+			sourceTree = "<group>";
+		};
+		D2DE777319EF1F1C00FC77C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2DE777419EF1F1C00FC77C7 /* Info.plist */,
+				D2DE777519EF1F1C00FC77C7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D2DE778F19EF1F1D00FC77C7 /* Pisti OyunuTests */ = {
+			isa = PBXGroup;
+			children = (
+				D2DE779219EF1F1D00FC77C7 /* Pisti_OyunuTests.m */,
+				D2DE779019EF1F1D00FC77C7 /* Supporting Files */,
+			);
+			path = "Pisti OyunuTests";
+			sourceTree = "<group>";
+		};
+		D2DE779019EF1F1D00FC77C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2DE779119EF1F1D00FC77C7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2DE776F19EF1F1C00FC77C7 /* Pisti Oyunu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2DE779619EF1F1D00FC77C7 /* Build configuration list for PBXNativeTarget "Pisti Oyunu" */;
+			buildPhases = (
+				D2DE776C19EF1F1C00FC77C7 /* Sources */,
+				D2DE776D19EF1F1C00FC77C7 /* Frameworks */,
+				D2DE776E19EF1F1C00FC77C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pisti Oyunu";
+			productName = "Pisti Oyunu";
+			productReference = D2DE777019EF1F1C00FC77C7 /* Pisti Oyunu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2DE778B19EF1F1D00FC77C7 /* Pisti OyunuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2DE779919EF1F1D00FC77C7 /* Build configuration list for PBXNativeTarget "Pisti OyunuTests" */;
+			buildPhases = (
+				D2DE778819EF1F1D00FC77C7 /* Sources */,
+				D2DE778919EF1F1D00FC77C7 /* Frameworks */,
+				D2DE778A19EF1F1D00FC77C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2DE778E19EF1F1D00FC77C7 /* PBXTargetDependency */,
+			);
+			name = "Pisti OyunuTests";
+			productName = "Pisti OyunuTests";
+			productReference = D2DE778C19EF1F1D00FC77C7 /* Pisti OyunuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2DE776819EF1F1C00FC77C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "yilmaz gursoy";
+				TargetAttributes = {
+					D2DE776F19EF1F1C00FC77C7 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					D2DE778B19EF1F1D00FC77C7 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = D2DE776F19EF1F1C00FC77C7;
+					};
+				};
+			};
+			buildConfigurationList = D2DE776B19EF1F1C00FC77C7 /* Build configuration list for PBXProject "Pisti Oyunu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2DE776719EF1F1C00FC77C7;
+			productRefGroup = D2DE777119EF1F1C00FC77C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2DE776F19EF1F1C00FC77C7 /* Pisti Oyunu */,
+				D2DE778B19EF1F1D00FC77C7 /* Pisti OyunuTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2DE776E19EF1F1C00FC77C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2DE778219EF1F1C00FC77C7 /* Main.storyboard in Resources */,
+				D2DE778719EF1F1C00FC77C7 /* LaunchScreen.xib in Resources */,
+				D2DE778419EF1F1C00FC77C7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2DE778A19EF1F1D00FC77C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2DE776C19EF1F1C00FC77C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2DE777C19EF1F1C00FC77C7 /* Pisti_Oyunu.xcdatamodeld in Sources */,
+				D2DE777919EF1F1C00FC77C7 /* AppDelegate.m in Sources */,
+				D2DE777F19EF1F1C00FC77C7 /* ViewController.m in Sources */,
+				D2DE777619EF1F1C00FC77C7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2DE778819EF1F1D00FC77C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2DE779319EF1F1D00FC77C7 /* Pisti_OyunuTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2DE778E19EF1F1D00FC77C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2DE776F19EF1F1C00FC77C7 /* Pisti Oyunu */;
+			targetProxy = D2DE778D19EF1F1D00FC77C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D2DE778019EF1F1C00FC77C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2DE778119EF1F1C00FC77C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D2DE778519EF1F1C00FC77C7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2DE778619EF1F1C00FC77C7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2DE779419EF1F1D00FC77C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D2DE779519EF1F1D00FC77C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2DE779719EF1F1D00FC77C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pisti Oyunu/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D2DE779819EF1F1D00FC77C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pisti Oyunu/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D2DE779A19EF1F1D00FC77C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Pisti OyunuTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pisti Oyunu.app/Pisti Oyunu";
+			};
+			name = Debug;
+		};
+		D2DE779B19EF1F1D00FC77C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Pisti OyunuTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pisti Oyunu.app/Pisti Oyunu";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2DE776B19EF1F1C00FC77C7 /* Build configuration list for PBXProject "Pisti Oyunu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2DE779419EF1F1D00FC77C7 /* Debug */,
+				D2DE779519EF1F1D00FC77C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2DE779619EF1F1D00FC77C7 /* Build configuration list for PBXNativeTarget "Pisti Oyunu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2DE779719EF1F1D00FC77C7 /* Debug */,
+				D2DE779819EF1F1D00FC77C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D2DE779919EF1F1D00FC77C7 /* Build configuration list for PBXNativeTarget "Pisti OyunuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2DE779A19EF1F1D00FC77C7 /* Debug */,
+				D2DE779B19EF1F1D00FC77C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D2DE777A19EF1F1C00FC77C7 /* Pisti_Oyunu.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D2DE777B19EF1F1C00FC77C7 /* Pisti_Oyunu.xcdatamodel */,
+			);
+			currentVersion = D2DE777B19EF1F1C00FC77C7 /* Pisti_Oyunu.xcdatamodel */;
+			path = Pisti_Oyunu.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D2DE776819EF1F1C00FC77C7 /* Project object */;
+}
